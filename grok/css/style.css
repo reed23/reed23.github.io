@@ -560,7 +560,7 @@ header a {
 /* line 633, ../scss/style.scss */
 .button1:hover {
   background-color: #ffab56;
-  color: #000;
+  color: white;
 }
 
 /* line 638, ../scss/style.scss */
@@ -573,7 +573,7 @@ header a {
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
   font-size: 20px;
-  background: #193353;
+  background: #fd7400;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   float: right;
@@ -584,7 +584,7 @@ header a {
 /* line 655, ../scss/style.scss */
 .button2:hover {
   background-color: #ffab56;
-  color: #000;
+  color: white;
 }
 
 /* line 661, ../scss/style.scss */
