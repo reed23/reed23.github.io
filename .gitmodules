@@ -1,3 +1,6 @@
 [submodule "lawfirm"]
 	path = lawfirm
 	url = https://github.com/reed23/lawfirm
+[submodule "grok"]
+	path = grok
+	url = https://github.com/reed23/grok
