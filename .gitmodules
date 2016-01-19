@@ -1,0 +1,3 @@
+[submodule "lawfirm"]
+	path = lawfirm
+	url = https://github.com/reed23/lawfirm
