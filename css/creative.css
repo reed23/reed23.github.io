@@ -5,6 +5,13 @@
 */
 /*font-family: 'Playfair Display', serif; */
 /* font-family: 'Montserrat', sans-serif; */
+
+
+.extraspace{
+	margin-bottom: 100px;
+}
+
+
 .subheader{
 width: 100%;
 font-size:1em;
