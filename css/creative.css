@@ -7,6 +7,14 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 
+
+a{
+	color: white;
+	font-family:  font-family: 'Montserrat', sans-serif; 
+	text-transform: uppercase;
+
+}
+
 .extraspace{
 	margin-bottom: 100px;
 }
@@ -23,6 +31,7 @@ text-align: center;
 .button-div{
 width: 100%;
 padding-bottom: 50px;
+background-color: white;
 }
 .live1{
 background-color: black;
@@ -117,7 +126,7 @@ hr.light {
 border-color: #fff;
 }
 a {
-color: #f05f40;
+
 -webkit-transition: all .35s;
 -moz-transition: all .35s;
 transition: all .35s;
