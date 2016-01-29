@@ -7,20 +7,40 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 .but1{
-
-background-color: white;
-
-text-transform: uppercase;
-text-align: center;
+ background: #32c896;
+  background-image: -webkit-linear-gradient(top, #32c896, #32c896);
+  background-image: -moz-linear-gradient(top, #32c896, #32c896);
+  background-image: -ms-linear-gradient(top, #32c896, #32c896);
+  background-image: -o-linear-gradient(top, #32c896, #32c896);
+  background-image: linear-gradient(to bottom, #32c896, #32c896);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 
 }
 
 
 .but2{
 
-	background-color: blue;
-width: 100%;
-
+background: #c75532;
+  background-image: -webkit-linear-gradient(top, #c75532, #c73232);
+  background-image: -moz-linear-gradient(top, #c75532, #c73232);
+  background-image: -ms-linear-gradient(top, #c75532, #c73232);
+  background-image: -o-linear-gradient(top, #c75532, #c73232);
+  background-image: linear-gradient(to bottom, #c75532, #c73232);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
 }
 
 .overlay_text{
