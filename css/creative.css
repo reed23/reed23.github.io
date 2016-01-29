@@ -7,17 +7,20 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 .but1{
-padding: 20px;
+
 background-color: white;
-margin-top: 50px;
-margin-left: 100px
+
+text-transform: uppercase;
+text-align: center;
 
 }
+
+
 .but2{
-	padding: 20px;
+
 	background-color: blue;
-	margin-top: 50px;
-	margin-right: 50px;
+
+
 }
 
 .overlay_text{
