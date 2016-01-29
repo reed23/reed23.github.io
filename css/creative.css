@@ -6,7 +6,95 @@
 /*font-family: 'Playfair Display', serif; */
 /* font-family: 'Montserrat', sans-serif; */
 
+.but1{
+padding: 20px;
+background-color: white;
+margin-top: 50px;
+margin-left: 100px
 
+}
+.but2{
+	padding: 20px;
+	background-color: blue;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.overlay_text{
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+}
+
+.mypic{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.home-image2{
+	float: right;
+	background-image: url(../img/mgdemo.jpg);
+	width: 45%;
+	height: 200px;
+  
+
+}
+
+.home-image{
+	float: left;
+
+	background-image: url(../img/grokdemo.jpg);
+    width: 45%;
+	height: 200px;
+
+
+}
+
+.home-image3{
+	float: right;
+	background-image: url(../img/mgdemo.jpg);
+	width: 45%;
+	height: 200px;
+  
+
+}
+
+.home-image4{
+	float: left;
+
+	background-image: url(../img/ccmockup.jpg);
+    width: 45%;
+	height: 200px;
+
+
+}
+
+
+
+
+
+
+
+
+.home-image:hover{
+	background-color: blue;
+
+}
+
+
+
+.test{
+width: 100%;
+background-color: black;
+margin-top: 175px;
+text-align: center;
+}
+
+.my_body{
+	margin-top: 20px;
+
+}
 
 a{
 	color: white;
@@ -15,8 +103,8 @@ a{
 
 }
 
-.extraspace{
-	margin-bottom: 100px;
+.rows{
+	margin-bottom: 20px;
 }
 
 
@@ -116,6 +204,7 @@ height: 100%;
 }
 body {
 font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+background-color: #f4f4f4;
 }
 hr {
 max-width: 50px;
@@ -253,6 +342,7 @@ url(../img/11ff.jpg);
 }
 .portfolio-nav{
 display: none;
+background-color: #424242
 }
 .my_body{
 padding: 0 1em;
@@ -300,7 +390,7 @@ margin-top: 50px;
 padding-bottom: 0px;
 }
 .my_body{
-width: 70%;
+width: 80%;
 float: right;
 padding: 0 2.5em;
 }
@@ -334,10 +424,10 @@ float: right;
 .portfolio-nav{
 display: block;
 width: 25%;
-height: 500px;
+height: 100%;
 background-color: white;
 float: left;
-background-color: white;
+background-color:#424242;
 position: fixed;
 }
 .portfolio-nav li{
@@ -346,11 +436,11 @@ display: block;
 margin-left: 10px;
 margin-bottom: 10px;
 }
-.portfolio-nav a{
+.port a{
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 text-transform: uppercase;
-color: black;
+color: white;
 }
 .mockup img{
 width: 25%;
@@ -402,6 +492,7 @@ margin: 0 auto;
 text-transform: uppercase;
 font-family: 'Playfair Display', serif;
 text-align: center;
+
 }
 .pfdiv{
 margin: 20px auto;
