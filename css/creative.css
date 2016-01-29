@@ -119,6 +119,14 @@ text-align: center;
 
 }
 
+
+.my_body2{
+  margin-top: 20px;
+
+}
+
+
+
 a{
 	color: white;
 	font-family:  font-family: 'Montserrat', sans-serif; 
@@ -142,7 +150,7 @@ text-align: center;
 .button-div{
 width: 100%;
 padding-bottom: 50px;
-background-color: white;
+
 }
 .live1{
 background-color: black;
@@ -199,6 +207,11 @@ position: center;
 margin-bottom: 25px;
 }
 .my_body{
+width: 100%;
+float: none;
+}
+
+.my_body2{
 width: 100%;
 float: none;
 }
@@ -370,6 +383,11 @@ background-color: #424242
 .my_body{
 padding: 0 1em;
 }
+
+.my_body2{
+padding: 0 1em;
+}
+
 @media(min-width:500px) {
 .text1{
 float: left;
@@ -417,6 +435,14 @@ width: 80%;
 float: right;
 padding: 0 2.5em;
 }
+
+.my_body2{
+width: 80%;
+float: right;
+padding: 0 10.5em;
+}
+
+
 .button-div{
 width: 100%;
 }
@@ -494,6 +520,9 @@ padding-bottom: 50px;
 .discovery{
 padding-bottom: 50px;
 width: 100%;
+background-color: white;
+padding: 1em 1em;
+box-shadow: 10px 10px 5px #888888;
 }
 .project_scope{
 width: 100%;
