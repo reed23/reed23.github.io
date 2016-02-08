@@ -6,6 +6,12 @@
 /*font-family: 'Playfair Display', serif; */
 /* font-family: 'Montserrat', sans-serif; */
 
+
+.overlay h1{
+  color: white;
+  margin-bottom: 10px;
+}
+
 .but1{
  background: #32c896;
   background-image: -webkit-linear-gradient(top, #32c896, #32c896);
@@ -47,6 +53,7 @@ background: #c75532;
 	color: white;
 	font-family: 'Playfair Display', serif;
 	font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .mypic{
@@ -389,6 +396,21 @@ padding: 0 1em;
 }
 
 @media(min-width:500px) {
+
+.about1{
+  float: left;
+  width: 45%;
+}
+
+.about2{
+  float: right;
+  width: 45%;
+}
+
+
+
+
+
 .text1{
 float: left;
 width: 35%;
@@ -493,7 +515,7 @@ color: white;
 }
 .mockup img{
 width: 25%;
-margin-right: 25px;
+margin-right: 40px;
 vertical-align: top;
 }
 .mockup{
