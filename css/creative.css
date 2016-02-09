@@ -7,6 +7,18 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 
+.overlay_text2{
+font-family: 'Playfair Display', serif;
+color: white;
+
+}
+
+
+
+#my-menu{
+  display: none;
+}
+
 .overlay h1{
   color: white;
   margin-bottom: 10px;
@@ -102,7 +114,9 @@ background: #c75532;
 
 
 
-
+.mo{
+  background-color: black;
+}
 
 
 
@@ -395,16 +409,38 @@ padding: 0 1em;
 padding: 0 1em;
 }
 
+
+.aboutwrap{
+  background-color: white;
+  background-color: white;
+padding: 1em 1em;
+box-shadow: 10px 10px 5px #888888;
+}
+
+.mobilio{
+background-color: white;
+
+}
+
+
+
 @media(min-width:500px) {
+
+
+.aboutwrap{
+  margin-left: 30px;
+}
 
 .about1{
   float: left;
-  width: 45%;
+  width: 40%;
+  padding: 10px;
 }
 
 .about2{
   float: right;
-  width: 45%;
+  width: 40%;
+  padding: 10px;
 }
 
 
@@ -492,15 +528,7 @@ color: #fff;
 background-color: #272727;
 float: right;
 }
-.portfolio-nav{
-display: block;
-width: 25%;
-height: 100%;
-background-color: white;
-float: left;
-background-color:#424242;
-position: fixed;
-}
+
 .portfolio-nav li{
 list-style-type: none;
 display: block;
@@ -539,6 +567,15 @@ padding-bottom: 50px;
 .top{
 padding-bottom: 50px;
 }
+
+
+
+
+
+
+
+
+
 .discovery{
 padding-bottom: 50px;
 width: 100%;
@@ -586,8 +623,42 @@ height: 300px;
 box-shadow: 10px 10px 5px #888888;
 width:100%;
 }
+
+
+
+
+
+
+.mobilio{
+background-color: white;
+display: none;
+
+}
+
+
+
 } /**end of 500 **/
-@media(min-width:768px) {
+@media(min-width: 650px) {
+  .mo{
+    display: none;
+  }
+
+.portfolio-nav{
+display: block;
+width: 25%;
+height: 100%;
+background-color: white;
+float: left;
+background-color:#424242;
+position: fixed;
+}
+.mobilio{
+background-color: white;
+display: none;
+}
+
+
+
 .navbar-default {
 border-color: rgba(255,255,255,.3);
 background-color: transparent;
