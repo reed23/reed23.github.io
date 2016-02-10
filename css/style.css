@@ -18,6 +18,7 @@ body{
   width: 50%;
    box-shadow:  10px 10px 5px #888888;
    margin-left:25px;
+   max-width: 200px;
 
 }
 
@@ -282,9 +283,27 @@ a.expand {
   opacity: 1;
 }
 
+.me2{
+  width: 50%;
+   box-shadow:  10px 10px 5px #888888;
+   margin-left:205px;
+   max-width: 200px;
+
+}
 
 
+@media only screen and (max-width: 800px) {
 
+.me2{
+  width: 50%;
+   box-shadow:  10px 10px 5px #888888;
+   margin-left:105px;
+   max-width: 200px;
+
+}
+
+
+}
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Media Queries
