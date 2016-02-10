@@ -422,6 +422,74 @@ background-color: white;
 
 }
 
+.form1{
+
+  width: 100%;
+  margin-bottom: 25px;
+}
+.firstname{
+  width: 45%;
+  float: left;
+
+}
+
+.lastname{
+
+width: 45%;
+  float: right;
+
+
+}
+
+.lastname label{
+  float: right;
+}
+
+
+.email{
+  width: 100%;
+}
+
+.mess{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.fieldBlock
+    {
+    display: block;
+    width: 40%;
+    float: left;
+    padding: 10px;
+    }
+
+.title
+    {
+    font-weight: bold;
+    }
+
+input
+    {
+    border: 1px solid gray;
+    font-size: 1.1em;
+    }
+
+
+.submit_button{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 75%;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
 
 
 @media(min-width:500px) {
@@ -765,6 +833,19 @@ margin: 50px auto 0;
 max-width: 400px;
 }
 @media(min-width:992px) {
+
+
+
+.submit_button{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 75%;
+  margin-left: 50px;
+}
+
+
+
 .service-box {
 margin: 20px auto 0;
 }
