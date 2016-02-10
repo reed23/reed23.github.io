@@ -9,6 +9,17 @@
 body{
   background-color: #d8d8d8
 }
+.mewrap{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.me2{
+  width: 50%;
+   box-shadow:  10px 10px 5px #888888;
+   margin-left:25px;
+
+}
 
 
 nav ul {
@@ -270,6 +281,9 @@ a.expand {
   margin-top: -30px;
   opacity: 1;
 }
+
+
+
 
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
