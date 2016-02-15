@@ -4,3 +4,6 @@
 [submodule "grok"]
 	path = grok
 	url = https://github.com/reed23/grok
+[submodule "cinemafilms"]
+	path = cinemafilms
+	url = https://github.com/reed23/cinemafilms.git
