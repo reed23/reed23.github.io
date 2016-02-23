@@ -5,7 +5,12 @@
 */
 /*font-family: 'Playfair Display', serif; */
 /* font-family: 'Montserrat', sans-serif; */
-
+.mypic{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+}
 
 .overlay_text2{
 font-family: 'Playfair Display', serif;
@@ -28,6 +33,7 @@ font-family: 'Playfair Display', serif;
 .overlay h1{
   color: white;
   margin-bottom: 10px;
+  font-size: 18px !important  ;
 }
 
 .but1{
@@ -713,6 +719,17 @@ display: none;
 
 } /**end of 500 **/
 @media(min-width: 650px) {
+  
+.overlay h1{
+  color: white;
+  margin-bottom: 10px;
+  font-size: 24px !important  ;
+}
+
+
+
+
+
   .mo{
     display: none;
   }
