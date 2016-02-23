@@ -13,7 +13,13 @@ color: white;
 
 }
 
-
+.email{
+  color: white;
+  text-transform: none;
+  text-align: center;
+  font-size: 18px;
+font-family: 'Playfair Display', serif;
+}
 
 #my-menu{
   display: none;
