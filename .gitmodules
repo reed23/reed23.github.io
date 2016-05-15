@@ -7,3 +7,6 @@
 [submodule "cinemafilms"]
 	path = cinemafilms
 	url = https://github.com/reed23/cinemafilms.git
+[submodule "ArtistInc"]
+	path = ArtistInc
+	url = https://github.com/reed23/ArtistInc.git
