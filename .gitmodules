@@ -10,3 +10,6 @@
 [submodule "ArtistInc"]
 	path = ArtistInc
 	url = https://github.com/reed23/ArtistInc.git
+[submodule "projects"]
+	path = projects
+	url = https://github.com/reed23/projects.git
