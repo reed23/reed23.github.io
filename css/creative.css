@@ -6,6 +6,20 @@
 /*font-family: 'Playfair Display', serif; */
 /* font-family: 'Montserrat', sans-serif; */
 
+.reed-1{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+.reed-2{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	margin: 0px;
+}
+
 
 .linkbox{
 	
@@ -547,7 +561,9 @@ width: 75%;
 margin-left: 20px;
 }
 @media(min-width:500px) {
-
+.contact-me{
+	margin-bottom: 20px;
+}
 
 	.just-me{
 		margin-bottom: 50px;
