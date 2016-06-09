@@ -1,0 +1,54 @@
+ <div class ="about1">
+            <h1>Professional Skills</h1>
+               <ul>
+              <li><a href="">HTML5</a></li>
+              <li><a href="">CSS3, SASS, and Compass</a></li>
+              <li><a href="">JavaScript and jQuery</a></li>
+              <li><a href="">PHP</a></li>
+            </ul>
+            
+          </div> <!--end of about1 -->
+        </div> <!--end of left side -->
+
+
+          <div class ="about2">
+            <h1>Tools</h1>
+             <ul>
+              <li><a href="">Sublime Text</a></li>
+              <li><a href="">Adobe Creative Suite</a></li>
+              <li><a href="">Github</a></li>
+              <li><a href="">iTerm</a></li>
+               <li><a href="">Grunt</a></li>
+            </ul>
+            
+           
+          </div>
+          <div class ="about3">
+            <h1>Design</h1>
+               <ul>
+              <li><a href="">Wire-framing</a></li>
+              <li><a href="">Sketching</a></li>
+              <li><a href="">Mockups</a></li>
+              <li><a href="">Responsive Web Design</a></li>
+            </ul>
+         
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+       

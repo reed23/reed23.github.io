@@ -377,7 +377,6 @@ p {
 margin-bottom: 20px;
 font-size: 16px;
  font-family: 'Montserrat', sans-serif;
- font-weight: 900;
  margin-top: 10px;
 }
 .bg-primary {
@@ -548,19 +547,106 @@ width: 75%;
 margin-left: 20px;
 }
 @media(min-width:500px) {
+
+
+	.just-me{
+		margin-bottom: 50px;
+		border-bottom: 1px solid black;
+		margin-top: 25px;
+
+
+	}
+	.justme-left{
+		width: 50%;
+		float: left;
+		
+	}
+	.justme-left img{
+		width: 50%;
+	}
+
+
+	.justme-right{
+		float: right;
+		width: 50%;
+		margin-top: 75px;
+	}
+
+.education-right p{
+	margin-bottom: 25px;
+	font-weight: 400px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.ed-left{
+	width: 25%;
+	float: left;
+	margin-top: 25px;
+}
+.education-right{
+	float: right;
+	width: 75%;
+	margin-top: 25px;
+}
+
+.education{
+	border-top: 1px solid black;
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+
+
+.aboutwrap h1{
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	
+	margin-bottom: 10px;
+}
+
+.aboutwrap a{
+	color: black;
+}
+
+.about1 ,.about3{
+	float: left;
+	width: 50%;
+}
+
+.about2 ,.about4{
+	float:right;
+	width: 50%;
+}
+
+.left-side-about{
+	float: left;
+	width: 50%;
+	
+}
+
+.right-side-about{
+	float: right;
+	width: 50%;
+
+}
+
 .aboutwrap{
-margin-left: 30px;
-}
-.about1{
-float: left;
-width: 40%;
-padding: 10px;
-}
-.about2{
+margin-right: 50px;
 float: right;
-width: 40%;
-padding: 10px;
+width: 70%;
+margin-top: 50px;
+
+
 }
+
+.aboutwrap li{
+	list-style-type: circle;
+}
+
+
 .grokimg{
 background-image: url("../img/grokdemo.jpg");
 background-position: center center;
