@@ -1,0 +1,243 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.skillbar {
+  font-family: 'Open Sans', 'sans-serif';
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+.myskills h1{
+	color: black;
+	text-align: center;
+}
+
+
+.who p{
+
+	font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+	margin: 0px;
+}
+
+.top-section{
+background-image: url("../img2/test-img.jpeg");
+	 background-size: cover;
+	 height: 650px;
+	 width: 100%;
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+}
+
+
+.right-who h1{
+	color: black;
+}
+
+.right-who p{
+	color: black;
+	font-size: 1.7em;
+	line-height: 2.3em;
+}
+
+
+.active3{
+	display: none;
+}
+
+
+.tbox { 
+	position: fixed;
+	margin-top: 200px;
+	margin-left: 30%;
+
+	
+}
+.tbox h1{
+	font-size: 5.0em;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+a{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+@media screen and (min-width: 600px) {
+
+
+	.portfolio{
+		padding-top: 30%;
+		padding-bottom: 40%;
+	}
+
+.myskills-right-left{
+	width: 45%;
+	float: left;
+}
+
+.myskills-right-right{
+	float: right;
+	width: 45%;
+}
+
+
+.myskills-left-left{
+	width: 45%;
+	float: left;
+}
+
+.myskills-left-right{
+	width: 45%;
+	float: right;
+}
+
+
+.top-section{
+background-image: url("../img2/test-img.jpeg");
+	 background-size: cover;
+	 height: 650px;
+	 width: 100%;
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+	 z-index: 100;
+}
+
+
+.who{
+padding-top: 10%;
+padding-bottom: 60%;
+}
+.left-who{
+	float: left;
+	width: 45%;
+	background-color: blue;
+}
+
+.left-who img{
+	width: 70%;
+	border-radius: 50%;
+	margin-left: 10%;
+
+}
+
+.right-who{
+	float: right;
+	width: 55%;
+	background-color: red;
+}
+
+.reed-wrap{
+	width: 90%;
+	margin: 0 auto;
+}
+.myskills{
+	padding-top: 20%;
+}
+
+.myskills-left{
+	width: 45%;
+	float: left;
+	
+}
+
+.myskills-right{
+	float: right;
+	width: 45%;
+	background-color: red;
+}
+
+ .active{
+	background-color: black;
+}
+.active2{
+	color: white! important;
+
+}
+
+
+} /*end of 600 */
+
+
+@media screen and (min-width: 800px) {
+
+} /*end of 800 */
