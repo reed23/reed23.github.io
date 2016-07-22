@@ -1,70 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Murphy and grantland </title>
-        <!-- Bootstrap Core CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-        <!-- Custom Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>My Portfolio</title>
         
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-        <!-- Plugin CSS -->
-        <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-        <!-- Custom CSS -->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,700,700italic,600italic,800,800italic,900italic,900' rel='stylesheet' type='text/css'>
+        <!-- Place favicon.ico in the root directory -->
+
+        
+        <link rel="stylesheet" href="css2/slicknav.css" />
+        <link rel="stylesheet" href="css2/animate.css" />
         <link rel="stylesheet" href="css/creative.css" type="text/css">
-        <link rel="stylesheet" href="css/creative.css" type="text/css">
-        <link rel="stylesheet" href="css/base.css" />
-        <link rel="stylesheet" href="css/style.css" />
+       
         <link rel="stylesheet" href="css/style2.css" />
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+
     </head>
     <body>
-        <div ="wrapper clearfix">
-            <div class ="mo clearfix">
-                <!-- The label triggers the input -->
+     
+            <div class ="case-nav" div id ="slicknav">
                 
-                <label for="menuTrigger">
-                    Menu
-                </label>
-                <p class ="me">Reed Cylear</p>
-                <!-- The input will trigger the navighation -->
-                <input id="menuTrigger" type="checkbox">
-                
-                <nav>
-                    <p class = "overlay_text2">Reed Cylear</p>
-                    <ul class ="mobile-overlay">
-                        
-                        <li><a href="http://reed23.github.io/">Home</a></li>
-                        <li><a href="file:///Users/Owner/Downloads/startbootstrap-creative-1.0.2/grok.html/">Portfolio</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact </a></li>
-                        
-                        <li> <a href="https://www.linkedin.com/in/reed-cylear-b536b7107?trk=hp-identity-name">Linkedin</a> </li>
-                    </nav>
-                </div>
-                <nav class="portfolio-nav">
-                    <a class ="mypic" a href="#">Reed Cylear</a>
-                    <ul class="port">
-                        
-                        <li><a href="http://reed23.github.io/">Home</a></li>
-                        <li><a href="file:///Users/Owner/Downloads/startbootstrap-creative-1.0.2/grok.html/">Services</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact </a></li>
-                        
-                        <li> <a href="#">Linkedin</a> </li>
-                    </ul>
-                </nav>
+                <ul id="menu">
+                    <img class ="namelogo" img src="img2/namelogo.png">
+                    <li><a class ="fix-men" a href="#">Home</a></li>
+                    <li><a class ="fix-men"a href="#">About Me</a></li>
+                    <li><a class ="fix-men"a href="#">Skills</a></li>
+                    <li><a class ="fix-men"a href="#">Portfolio</a></li>
+                    <li><a class ="fix-men"a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+           
                 <div class = "my_body2 clearfix">
                     <div class="murphy-header">
                         <img src="img/mgdesktopoffic.jpg">
@@ -141,7 +109,7 @@
                                         Body:  MONTSERRAT
                                         The above fonts are used from Google's free collection, all accessible within their site.  Because these fonts are stored on Google's servers, Conquest Brewery will always be fast and reliable.
                                     </p>
-                                </div>
+                                </div> <!--end of not_special -->
                                 
                                 
                                 <div class ="special">
@@ -156,19 +124,80 @@
                                     <img src="img/screenshot2.png">
                                     
                                 </div>
+                        
                                 
-                                </div> <!--end of mybody -->
-                                </div> <!--end of wrapper -->
+                              
+                           
+                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+
+                             <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+                               <script src="js2/jquery.mixitup.js"></script>
+                              <script type="text/javascript">$(function(){
+
+                                    // Instantiate MixItUp:
+
+                                    $('#Container').mixItUp();
+
+                                });</script>
+
+
+
+
+                                <script src="js2/jquery.slicknav.min.js"></script>
+                                <script type="text/javascript">
+                                $(document).ready(function(){
+                                $('#menu').slicknav();
+                                });
+                                </script>
+                                <script type="text/javascript">
+                                $(window).on("scroll", function() {
+                                if($(window).scrollTop() > 50) {
+                                $("#menu").addClass("active");
+                                } else {
+                                //remove the background property so it comes transparent again (defined in your css)
+                                $("#menu").removeClass("active");
+                                }
+                                });</script>
+                                <script type="text/javascript">
+                                $(window).on("scroll", function() {
+                                if($(window).scrollTop() > 50) {
+                                $(".fix-men").addClass("active2");
+                                } else {
+                                //remove the background property so it comes transparent again (defined in your css)
+                                $(".fix-men").removeClass("active2");
+                                }
+                                });</script>
+                                <script src="js2/jquery.fittext.js"></script>
+                                <script src="js2/jquery.lettering.js"></script>
+                                <script src="js2/jquery.textillate.js"></script>
+                                <script type="text/javascript">$(function () {
+                                $('.tlt').textillate();
+                                })
+                                </script>
+                                <script type="text/javascript">
+                                $(window).on("scroll", function() {
+                                if($(window).scrollTop() > 100) {
+                                $(".tbox").addClass("active3");
+                                } else {
+                                //remove fixed from text css)
+                                $(".tbox").removeClass("active3");
+                                }
+                                });</script>
+                               
+
+
+                  
+
+
+
+
+
+
+
+
+
+
+
                             </body>
-                            <!-- jQuery -->
-                            <script src="js/jquery.js"></script>
-                            <!-- Bootstrap Core JavaScript -->
-                            <script src="js/bootstrap.min.js"></script>
-                            <!-- Plugin JavaScript -->
-                            <script src="js/jquery.easing.min.js"></script>
-                            <script src="js/jquery.fittext.js"></script>
-                            <script src="js/wow.min.js"></script>
-                            <!-- Custom Theme JavaScript -->
-                            <script src="js/creative.js"></script>
-                        </body>
-                    </html>
+                        </html>
