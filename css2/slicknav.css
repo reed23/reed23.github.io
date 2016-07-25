@@ -22,6 +22,37 @@
 
 @media screen and (min-width: 800px) {
 
+.mock-pics img{
+  width: 100%;
+
+}
+
+
+.mock-left{
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  margin: 1%;
+  
+
+}
+
+.mock-middle{
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  margin: 1%;
+  
+}
+
+.mock-right{
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  margin: 1%;
+
+}
+
 
   .namelogo{
     width: 20%;
@@ -33,6 +64,12 @@
     display:none;
   }
   
+
+
+
+
+
+
   .js .slicknav_menu {
     display:block;
   }
@@ -64,7 +101,7 @@
 }
 
 
-}
+
 
 
 .slicknav_btn {
@@ -209,3 +246,44 @@
   line-height: 30px;
   padding: 7px 12px;
   height: 44px; }
+
+
+
+}
+
+
+
+@media (min-width: 1000px) { 
+
+
+
+  .namelogo{
+    width: 15%;
+    float: left;
+    margin-right: 30%;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
