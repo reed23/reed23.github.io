@@ -198,12 +198,14 @@ input:focus, textarea:focus {
 .tech-right a{
 	color: black;
 	font-size: 1.5em;
+	text-decoration: none;
 }
 .tech-right li{
 	 list-style-type: none;
  list-style-position: outside;
 	margin-bottom: 10px;
 	text-align: center;
+	text-decoration: none;
 }
 
 
