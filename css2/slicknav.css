@@ -12,6 +12,15 @@
 
 .slicknav_menu {
   display:block;
+  background-color: black;
+  padding: 20px;
+}
+#menu a{
+  text-decoration: none;
+  color: white;
+}
+#slicknav_menu a{
+  color: white;
 }
 #menu{
   display: none;
