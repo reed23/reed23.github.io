@@ -362,6 +362,7 @@ padding-bottom: 50px;
 .mockme img{
 width: 100%;
 box-shadow: 10px 10px 5px #888888;
+margin-top: 50px;
 }
 .integ{
 width: 100%;
@@ -808,8 +809,7 @@ text-transform: uppercase;
 color: white;
 }
 .mockup img{
-width: 25%;
-margin-right: 40px;
+width: 100%;
 vertical-align: top;
 }
 .mockup{
@@ -878,6 +878,7 @@ height: 300px;
 .murphy-header img{
 box-shadow: 10px 10px 5px #888888;
 width:100%;
+margin-top: 50px;
 }
 .mobilio{
 background-color: white;
