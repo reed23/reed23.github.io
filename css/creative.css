@@ -772,28 +772,57 @@ margin-top: 10px;
 .button-div{
 width: 100%;
 }
+
+.live1 a{
+	color: black;
+	text-decoration: none;
+}
+.live2 a{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+.live1:hover >a{
+	color: white;
+}
+
+.live1:hover{
+	background-color: black;
+}
+
+.live2:hover >a{
+	color: white;
+}
+
+.live2:hover{
+	background-color: black;
+}
+
+
 .live1{
 padding: 21px 34px;
 font-size: 15px;
-font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+color: black;
 text-transform: uppercase;
 letter-spacing: 1px;
 font-weight: 600;
 font-style: normal;
-color: #fff;
-background-color: #272727;
+background-color: transparent;
+border:1px solid black;
 float: left;
 }
 .live2{
 padding: 21px 34px;
 font-size: 15px;
-font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+color: black;
 text-transform: uppercase;
 letter-spacing: 1px;
 font-weight: 600;
 font-style: normal;
-color: #fff;
-background-color: #272727;
+background-color: transparent;
+border:1px solid black;
 float: right;
 }
 .portfolio-nav li{
@@ -846,19 +875,19 @@ padding-bottom: 50px;
 }
 .subheader{
 width: 100%;
-font-size:17px;
+font-size:24px;
 text-transform: uppercase;
-font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 700;
 text-align: center;
 }
 .body{
 width: 50%;
-font-size: 16px;
+font-size: 20px;
 text-align: center;
 margin: 0 auto;
 text-transform: uppercase;
-font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
 text-align: center;
 }
 .pfdiv{
