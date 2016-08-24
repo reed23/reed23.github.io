@@ -1,6 +1,8 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+
+
 .resume{
 	font-size: 3.5em;
 }
@@ -257,7 +259,7 @@ body{
 }
 
 .top-section{
-background-image: url("../img2/cartoon.png");
+background-image: url("../img2/metest.png");
 	 background-size: cover;
 	 height: 850px;
 	 width: 100%;
@@ -303,6 +305,9 @@ h1{
 
 a{
 	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
 
 }
 
@@ -468,7 +473,7 @@ text-align: center;
 
 
 .top-section{
-background-image: url("../img2/cartoon.png");
+background-image: url("../img2/metest.png");
 	 background-size: cover;
 	 height: 650px;
 	 width: 100%;
@@ -556,6 +561,7 @@ padding-bottom: 80%;
 .tbox h1{
 	font-size: 4.0em;
 	color: white;
+	text-transform: uppercase;
 }
 
 .myskills{
@@ -606,7 +612,7 @@ padding-bottom: 80%;
 .tbox { 
 
 	margin-top: 200px;
-	margin-left: 50%;
+	margin-left: 25%;
 
 	
 }
