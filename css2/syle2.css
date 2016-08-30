@@ -2,14 +2,21 @@
 
 
 
-
-
-
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*font-family: 'Roboto Condensed', sans-serif; */
 /*font-family: 'Roboto', sans-serif; */
+  .namelogo{
+   
+    display: none;
+  }
 
+  .logo2{
+  	width: 35%;
+  	float: left;
+  	margin-right: 45%;
+  	margin-top: 5px;
+  }
 	
 .bounce img{
 	width: 100%;
@@ -220,9 +227,28 @@ input:focus, textarea:focus {
 
 
 
-.overlay{
-	display: none;
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20000;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: all 0.5s;
+  height: 0px;
+  
+  width: 100%;
+  bottom: 0;
+
 }
+
+.mix:hover > .overlay{
+	height: 100%;
+}
+
+
+
+
 
 
 .case-nav > #menu{
@@ -343,9 +369,10 @@ h1{
 a{
 	font-family: 'Roboto', sans-serif;
 	color: white;
-	font-size: 24px;
+	font-size: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
+	margin-top: 5px;
 
 }
 
@@ -354,9 +381,6 @@ p{
 
 }
 
-.mix:hover{
-	opacity: 0.5;
-}
 
 .mix img{
 	width: 90%;
@@ -398,11 +422,19 @@ text-align: center;
 	border-bottom: solid black 1px;
 }
 
-
+#slicknav li{
+	text-align: center;
+	margin-top: 10px;
+}
 
 
 
 @media screen and (min-width: 600px) {
+
+
+	.namelogo{
+		display: block;
+	}
 
 .myskills h3 {
 	border-bottom: none;
@@ -471,15 +503,16 @@ text-align: center;
    margin-left: 2%;
    float: left;
    position: relative;
+   max-height: 200px;
  
 	
 }
-.mix:hover{
-	opacity: 0.5;
-}
+
 
 .mix img{
 	width: 100%;
+	position: relative;
+	max-height: 200px;
 }
 
 	.portfolio{
@@ -518,6 +551,8 @@ background-image: url("../img2/metest.png");
 	 background-attachment: fixed;
 	 background-repeat: no-repeat;
 	 z-index: 100;
+
+
 }
 
 
@@ -733,6 +768,7 @@ padding-bottom: 80%;
     float: left;
     margin-right: 15%;
     margin-top: 25px;
+    display: block;
   }
 
 
@@ -750,7 +786,7 @@ padding-bottom: 80%;
     margin-right: 30%;
     margin-left: 10px;
     max-width: 200px;
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
 
