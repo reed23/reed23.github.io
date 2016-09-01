@@ -31,7 +31,7 @@ position: absolute;
     margin-left: -50px;
     height: 100px;
     width: 100px;
-    background-image: url("../img2/arrow-down.png");
+    background-image: url("../img2/arrow-down.svg");
     background-repeat: no-repeat;
     -webkit-animation: bounce 1s infinite;
     top: 0;
@@ -252,7 +252,7 @@ input:focus, textarea:focus {
 
 
 .case-nav > #menu{
-	margin-top: -25px;
+	
 }
 .resume{
 	text-align: center !important;
@@ -349,10 +349,14 @@ background-image: url("../img2/metest.png");
 
 .tbox { 
 	position: fixed;
-	margin-top: 200px;
-	margin-left: 50%;
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
 
 	
+}
+.tbox p{
+	color: white;
 }
 .tbox h1{
 	font-size: 3.0em;
@@ -662,7 +666,14 @@ padding-bottom: 80%;
 .tbox h1{
 	font-size: 4.0em;
 	color: white;
-	text-transform: uppercase;
+	font-weight: 800;
+	
+}
+
+.tbox p{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .myskills{
@@ -712,8 +723,8 @@ padding-bottom: 80%;
 
 .tbox { 
 
-	margin-top: 200px;
-	margin-left: 25%;
+	margin-top:150px;
+	text-align: center;
 
 	
 }
