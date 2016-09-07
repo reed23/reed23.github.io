@@ -6,6 +6,12 @@
 
 /*font-family: 'Roboto Condensed', sans-serif; */
 /*font-family: 'Roboto', sans-serif; */
+
+
+.my-button-box{
+	display: none;
+}
+
   .namelogo{
    
     display: none;
@@ -225,8 +231,19 @@ input:focus, textarea:focus {
 	}
 }
 
+.overlay h1{
+	color: white;
+	font-size: 2em;
+	text-align: center;
 
-
+}
+.overlay p{
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
 
 .overlay {
   display: block;
@@ -322,11 +339,11 @@ body{
 }
 
 .top-section{
-background-image: url("../img2/metest.png");
+background-image: url("../img/hero.jpeg");
 	 background-size: cover;
 	 height: 850px;
 	 width: 100%;
-	 background-attachment: fixed;
+	 position: relative;
 	 background-repeat: no-repeat;
 }
 
@@ -375,7 +392,7 @@ a{
 	color: white;
 	font-size: 18px;
 	text-decoration: none;
-	text-transform: uppercase;
+	
 	margin-top: 5px;
 
 }
@@ -431,9 +448,29 @@ text-align: center;
 	margin-top: 10px;
 }
 
-
+.overlay-me{
+	display: none;
+}
 
 @media screen and (min-width: 600px) {
+
+
+
+
+
+	.overlay-me{
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		background-color: black;
+		top:0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -3;
+		opacity: 0.7;
+		display: block;
+	}
 
 
 	.namelogo{
@@ -495,33 +532,39 @@ text-align: center;
 
 
 .mix{
-	width: 22.5%;
+	width: 45.5%;
 	
 	border-radius: 10px;
 
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	 opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-   margin-left: 2%;
+   margin-right: 4%;
    float: left;
    position: relative;
-   max-height: 200px;
+   max-height: 275px;
  
 	
 }
 
 
 .mix img{
+	
 	width: 100%;
-	position: relative;
-	max-height: 200px;
+    position: relative;
+    height: 100%;
+    max-height: 275px;
 }
 
 	.portfolio{
 		padding-top:5%;
-		padding-bottom: 30%;
+		
+		padding-top: 5%;
+    padding-bottom: 30%;
+    margin: 0 auto;
+    width: 90%;
 	}
 
 	.portfolio h1{
@@ -548,11 +591,11 @@ text-align: center;
 
 
 .top-section{
-background-image: url("../img2/metest.png");
+background-image: url("../img/hero.jpeg");
 	 background-size: cover;
 	 height: 650px;
 	 width: 100%;
-	 background-attachment: fixed;
+	 position: relative;
 	 background-repeat: no-repeat;
 	 z-index: 100;
 
@@ -627,6 +670,37 @@ padding-bottom: 50%;
 
 
 @media screen and (min-width: 800px) {
+
+
+.my-button-box{
+	display: block;
+}
+
+.my-button-box button:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+
+.my-button-box button{
+	color: white;
+	font-size: 24px;
+	background-color: transparent;
+	border:1px solid white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.overlay h3{
+	font-size: 2.3em;
+	margin-bottom: 10%;
+}
+
+.overlay p{
+	margin-bottom: 10%;
+}
 
 .myskills h1{
 	color: black;
@@ -771,7 +845,10 @@ padding-bottom: 80%;
 
 
 .who{
-	padding-bottom: 50%;
+	padding-bottom: 30%;
+	margin-top: 200px;
+	width: 80%;
+	margin: 500px auto;
 }
 
   .namelogo{
