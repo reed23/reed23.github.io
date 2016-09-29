@@ -1,0 +1,81 @@
+/* CSS FOR THE TRIGGER */
+#menuTrigger,
+nav {
+    display: none;
+}
+
+#menuTrigger:checked + nav {
+    display: block;
+}
+
+.mo nav{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 0.75;
+          height: 100%;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 0.75;
+    z-index: 10;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.mobile-overlay li{
+    width: 100%;
+
+}
+
+.mobile-overlay a{
+    background-color: black;
+   
+}
+.me{
+    font-size: 22px;
+    font-weight: 700px;
+    font-family: 'roboto slab' sans-serif;
+    color: white;
+}
+
+
+/* BASIC CSS */
+section {
+    border: 1px solid #555;
+    margin: 20px;
+    max-width: 320px;
+    height: 450px;
+}
+
+header,
+main,
+nav {
+    padding: 10px;
+}
+
+header {
+    background-color: #555;
+    color: #fff;
+}
+
+label {
+    cursor: pointer;
+    float: right;
+}
+
+.mo label{
+    color: white;
+    font-size: 22px;
+}
+
+
+
+
+nav {
+    background-color: #eee;
+    border-bottom: 1px solid #555;
+}
