@@ -61,7 +61,17 @@ body{
 	max-height: 200px;
  }
 
+.top-section{
+background-color: 	#d9534f;
+	 background-size: cover;
+	 height: 500px;
+	 width: 100%;
+	 position: relative;
+	 background-repeat: no-repeat;
+	 z-index: 100;
 
+
+}
 
 
 .right1{
@@ -103,9 +113,11 @@ body{
 
 
 .my-footer{
-	background-color: #454545;
-	padding: 20px;
-	min-height: 300px;
+background-color: #454545;
+    padding: 20px;
+   
+    display: inline-block;
+    width: 100%;
 }
 
 .my-footer p{
@@ -175,10 +187,6 @@ body{
 	display: none;
 }
 
-  .namelogo{
-   
-    display: none;
-  }
 
   .logo2{
   	width: 35%;
@@ -394,33 +402,6 @@ input:focus, textarea:focus {
 	}
 }
 
-.overlay h1{
-	color: white;
-	font-size: 2em;
-	text-align: center;
-font-family: 'Open Sans Condensed', sans-serif;
-}
-.overlay p{
-	color: white;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -10px;
-}
-
-.overlay {
-  display: block;
-  position: absolute;
-  z-index: 20000;
-  background: rgba(0, 0, 0, 0.8);
-  overflow: hidden;
-  transition: all 0.5s;
-  height: 0px;
-  
-  width: 100%;
-  bottom: 0;
-
-}
 
 .mix:hover > .overlay{
 	height: 100%;
@@ -503,13 +484,7 @@ body{
 	margin-bottom: 20px;
 }
 
-.top-section{
-background-color: #F1F1F1;
-	 height: 850px;
-	 width: 100%;
-	 position: relative;
-	 background-repeat: no-repeat;
-}
+
 
 
 .right-who h1{
@@ -619,7 +594,44 @@ text-align: center;
 	display: none;
 }
 
+
+.overlay{
+	display: none;
+}
+
 @media screen and (min-width: 600px) {
+
+.overlay h1{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.overlay p{
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20000;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: all 0.5s;
+  height: 0px;
+  
+  width: 100%;
+  bottom: 0;
+
+}
+
+
+
+
 
 .foot-wrap{
 	width: 70%;
