@@ -11,7 +11,7 @@
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,700,700italic,600italic,800,800italic,900italic,900' rel='stylesheet' type='text/css'>
         <!-- Place favicon.ico in the root directory -->
 
-        
+        <link rel="stylesheet" href="css2/syle2.css" />
         <link rel="stylesheet" href="css2/slicknav.css" />
         <link rel="stylesheet" href="css2/animate.css" />
         <link rel="stylesheet" href="css/creative.css" type="text/css">
@@ -20,18 +20,35 @@
 
     </head>
     <body>
+       <div class ="fullpage"> 
+      <img class ="namelogo" img src="img2/reedbare-white.svg">
+     <a class ="menu-link" a href="#">Menu</a>
+     <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Work</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+
+
+     </ul>
+    </div>
      
-            <div class ="case-nav" div id ="slicknav">
-                
-                <ul id="menu">
-                    <img class ="namelogo" img src="img2/namelogo.png">
-                    <li><a class ="fix-men" a href="#">Home</a></li>
-                    <li><a class ="fix-men"a href="#">About Me</a></li>
-                    <li><a class ="fix-men"a href="#">Skills</a></li>
-                    <li><a class ="fix-men"a href="#">Portfolio</a></li>
-                    <li><a class ="fix-men"a href="#">Contact Me</a></li>
-                </ul>
-            </div>
+        <div id ="slicknav ">
+
+          <div class ="nav-clamp clearfix">  
+            <img class ="namelogo" img src="img2/reedlogo-bare.svg">
+          <ul id="menu">
+            
+            <li><a class ="desk"a href="#port"a class ="fix-men"a href="#">Work</a></li>
+           
+            <li><a class ="desk"a href="#who"a class ="fix-men"a href="#fullpage/slide1">About </a></li>
+            
+            <li><a class ="desk"a href="#bottom"a class ="fix-men"a href="#">Contact </a></li>
+            <li> <a class ="menu-link" a href="#">Menu</a></li>
+            
+          </ul>
+          </div> <!---end of nav-clamp -->
+     
            
                 <div class = "my_body2 clearfix">
                     <div class="murphy-header">
@@ -152,12 +169,7 @@
 
 
 
-                                <script src="js2/jquery.slicknav.min.js"></script>
-                                <script type="text/javascript">
-                                $(document).ready(function(){
-                                $('#menu').slicknav();
-                                });
-                                </script>
+                             
                                 <script type="text/javascript">
                                 $(window).on("scroll", function() {
                                 if($(window).scrollTop() > 50) {
@@ -195,7 +207,13 @@
                                
 
 
-                  
+                  <script>
+$(document).ready(function(){
+    $(".menu-link").click(function(){
+        $(".fullpage").toggleClass("active4");
+    });
+});
+</script>
 
 
 
