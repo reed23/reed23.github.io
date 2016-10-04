@@ -12,14 +12,14 @@
 
 .reed-1{
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 32px;
 	margin-top: 0px;
 	margin-bottom: 25px;
 }
 .reed-2{
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 24px;
 	margin: 0px;
 }
@@ -35,26 +35,26 @@
 .left{
 	float: left;
 	font-size: 24px;
-	 font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
 .right{
 	float: right;
 	font-size: 24px;
-	 font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
 .head1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
 	font-size: 32px;
 	font-weight: 900;
 
 }
 .body_text1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
 	font-size: 24px;
 	font-weight: 900;
@@ -150,13 +150,13 @@ width: 90%;
 margin: 20px 20px;
 }
 .mypic{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 color: white;
 text-align: center;
 
 }
 .overlay_text2{
-font-family: 'Playfair Display', serif;
+font-family: 'Open Sans Condensed', sans-serif;
 color: white;
 }
 .email{
@@ -258,11 +258,7 @@ margin-top: 20px;
 .my_body2{
 margin-top: 20px;
 }
-a{
-color: white;
- font-family: 'Montserrat', sans-serif;
 
-}
 .rows{
 margin-bottom: 20px;
 }
@@ -792,7 +788,7 @@ width: 100%;
 
 
 .live1{
-padding: 21px 34px;
+padding: 11px 17px;
 font-size: 15px;
 color: black;
 text-transform: uppercase;
@@ -802,9 +798,10 @@ font-style: normal;
 background-color: transparent;
 border:1px solid black;
 float: left;
+
 }
 .live2{
-padding: 21px 34px;
+padding: 11px 17px;
 font-size: 15px;
 color: black;
 text-transform: uppercase;
@@ -822,7 +819,7 @@ margin-left: 10px;
 margin-bottom: 10px;
 }
 .port a{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 text-transform: uppercase;
 color: white;
@@ -841,7 +838,7 @@ width: 100%;
 font-size:3em;
 text-transform: uppercase;
 text-align: center;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 padding-bottom: 50px;
 }
 .button-div{
@@ -867,7 +864,7 @@ padding-bottom: 50px;
 width: 100%;
 font-size:24px;
 text-transform: uppercase;
-font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 font-weight: 700;
 text-align: center;
 }
@@ -877,7 +874,7 @@ font-size: 20px;
 text-align: center;
 margin: 0 auto;
 text-transform: uppercase;
-font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 text-align: center;
 }
 .pfdiv{
