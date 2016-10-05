@@ -9,6 +9,26 @@
 /*font-family: 'Oswald', sans-serif;*/
 /*font-family: 'Open Sans Condensed', sans-serif;*/
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+
+.about-page{
+	margin-top: 75px;
+}
+
+
 
 @font-face {
   font-family: sequel-regular;
@@ -149,13 +169,14 @@ background-color: #454545;
     top: 0;
     bottom: 0;
     bottom: 0;
-    background-color:	#d9534f;
+    background-color:#004a62;
     width: 100;
     width: 100%;
     width: 100;
     height: 1000%;
     z-index: 500000;
     display: none;
+    position: fixed;
 }
 
 .fullpage ul{
@@ -554,7 +575,7 @@ a{
 }
 
 p{
-	 font-family: din-condensed;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -615,11 +636,21 @@ text-align: center;
 
 @media screen and (min-width: 600px) {
 
+
+
+.about-left{
+	width: 45%;
+	float: left;
+}
+.about-left img{
+	width: 100%;
+}
+
 .namelogo img{
 	width: 200px;
 	height: 50px;
 	margin-bottom: 0px;
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 
@@ -628,7 +659,7 @@ text-align: center;
 
 .open img{
 	width: 30px;
-	height: 30px;
+	height: 20px;
 }
 
 .close{
@@ -742,7 +773,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 		display: block;
 		display: block;
     float: left;
-    margin-top: 30px;
+    
 	}
 
 .myskills h3 {

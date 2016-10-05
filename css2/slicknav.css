@@ -42,7 +42,7 @@
 
 .namelogo{
     width: 50%;
-    margin-left: 50px;
+ 
     max-width: 200px;
    
    
@@ -132,7 +132,7 @@
  
   float: right;
   margin-top: -5px;
-  width: 40%;
+  width: 50%;
   z-index: 100;
 
   background-color: white;
@@ -307,7 +307,17 @@
 
 @media (min-width: 1000px) { 
 
+#menu{
+  display: inline-block;
+ 
+  float: right;
+  margin-top: -5px;
+  width: 40%;
+  z-index: 100;
 
+  background-color: white;
+ 
+}
 
   .namelogo{
     width: 15%;
