@@ -49,6 +49,20 @@ body{
 	position: relative;
 }
 
+
+.namelogo img{
+	width: 200px;
+	height: 50px;
+	margin-bottom: -50px;
+	margin-left: 50px;
+}
+
+
+.open img{
+	width: 30px;
+	height: 30px;
+}
+
 .foot-wrap{
 	width: 90%;
 	margin: 0 auto;
@@ -601,6 +615,47 @@ text-align: center;
 
 @media screen and (min-width: 600px) {
 
+.namelogo img{
+	width: 200px;
+	height: 50px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+
+
+
+
+
+.open img{
+	width: 30px;
+	height: 30px;
+}
+
+.close{
+	margin-right: 50px;
+}
+
+
+.mock2-left{
+	width: 45%;
+	float: left;
+}
+
+.mock2-right{
+	width: 45%;
+	float: right;
+}
+
+
+.mockup-2 img{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.mockup-2 h1{
+	text-align: center;
+}
+
 .overlay h1{
 	color: white;
 	font-size: 2em;
@@ -908,11 +963,11 @@ padding-bottom: 50%;
 
 .overlay h3{
 	font-size: 2.3em;
-	margin-bottom: 10%;
+	margin-bottom: 15px;
 }
 
 .overlay p{
-	margin-bottom: 10%;
+	margin-bottom: 15px;
 }
 
 .myskills h1{
