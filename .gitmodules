@@ -13,3 +13,6 @@
 [submodule "projects"]
 	path = projects
 	url = https://github.com/reed23/projects.git
+[submodule "fleamonkey"]
+	path = fleamonkey
+	url = https://github.com/reed23/fleamonkey.git
